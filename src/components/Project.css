@@ -66,12 +66,14 @@
 
 @media screen and (max-width: 960px) {
     .project__container {
-        height: calc(100vh - var(--navbar-height-mobile));
+        height: fit-content;
+        padding: 10px 10px 30px 10px;
+        margin-bottom: 30px;
     }
 
     .project__title {
         font-size: 48px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
 
     .project__demo {
@@ -88,7 +90,7 @@
 
     .project__description {
         padding-top: 30px;
-        font-size: 20px;
+        font-size: 17px;
     }
 
 }

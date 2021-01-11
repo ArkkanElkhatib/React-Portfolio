@@ -45,6 +45,7 @@
     justify-content: space-around;
     align-items: center;
     height: 80%;
+    padding-bottom: 40px;
 }
 
 .hero__text {
@@ -84,5 +85,4 @@
     .hero__text {
         font-size: 20px;
     }
-
 }
