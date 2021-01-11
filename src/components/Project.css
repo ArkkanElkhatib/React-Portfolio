@@ -69,6 +69,11 @@
         height: calc(100vh - var(--navbar-height-mobile));
     }
 
+    .project__title {
+        font-size: 48px;
+        padding-bottom: 40px;
+    }
+
     .project__demo {
         top: 0;
         left: 0;

@@ -10,6 +10,7 @@
 }
 
 .hero__innerPane {
+    padding: 30px;
     height: 95%;
     width: 95%;
     border-radius: 15px;
