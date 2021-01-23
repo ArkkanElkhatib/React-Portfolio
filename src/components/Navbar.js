@@ -41,12 +41,12 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link className='link' to='/'>
+                        <a className='link' href='https://www.github.com/arkkanelkhatib' target='_blank'>
                             Github
-                        </Link>
+                        </a>
                     </li>
                     <li>
-                        <Link className='link' to='/'>
+                        <Link className='link' to='/projects'>
                             Projects
                         </Link>
                     </li>
