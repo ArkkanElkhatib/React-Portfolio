@@ -19,6 +19,15 @@ function Navbar() {
         }
     }
 
+    const scrollTop = () => {
+        window.scrollTo({top: 0});
+    }
+
+    /* For future Use
+    const scrollBottom = () => {
+        window.scrollTo(0, document.body.scrollHeight);
+    } */
+
     useEffect(() => {
         showFullName();
     })
@@ -36,7 +45,7 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'navbar__links clicked' : 'navbar__links'}>
                     <li>
-                        <Link className='link' to='/'>
+                        <Link className='link' to='/' onClick={scrollTop}>
                             About
                         </Link>
                     </li>
@@ -46,7 +55,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li>
-                        <Link className='link' to='/projects'>
+                        <Link className='link' to='/projects' onClick={scrollTop}>
                             Projects
                         </Link>
                     </li>
