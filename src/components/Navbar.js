@@ -45,8 +45,13 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'navbar__links clicked' : 'navbar__links'}>
                     <li>
-                        <Link className='link' to='/' onClick={scrollTop}>
+                        <Link className='link' to='/' onClick={scrollTop, handleClick}>
                             About
+                        </Link>
+                    </li> 
+                    <li>
+                        <Link className='link' to='/projects' onClick={scrollTop, handleClick}>
+                            Projects
                         </Link>
                     </li>
                     <li>
@@ -55,12 +60,7 @@ function Navbar() {
                         </a>
                     </li>
                     <li>
-                        <Link className='link' to='/projects' onClick={scrollTop}>
-                            Projects
-                        </Link>
-                    </li>
-                    <li>
-                        <Link className='link' to='/'>
+                        <Link className='link' to='/' onClick={scrollTop, handleClick}>
                             Contact
                         </Link>
                     </li>
