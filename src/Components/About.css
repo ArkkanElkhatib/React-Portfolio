@@ -56,6 +56,7 @@
     .about__content__container {
         flex-direction: column;
         position: relative;
+        height: fit-content;
         bottom: 10px;
         gap: 2em;
         width: 100%;

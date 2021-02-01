@@ -89,15 +89,17 @@
     }
 
     .projects__content__container {
+        height: fit-content;
         justify-content: flex-start;
         align-items: center;
         gap: 2em;
         flex-direction: column;
         flex-wrap: nowrap;
+        overflow-y: initial;
     }
 
     .projects__tile {
-        height: 40vh;
+        height: 50vh;
         width: 90vw;
     }
     
