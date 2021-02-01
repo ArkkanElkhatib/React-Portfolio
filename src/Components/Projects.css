@@ -72,7 +72,7 @@
     opacity: 1;
 }
 
-@media screen and (max-width: 1400px) {
+@media only screen and (max-width: 1400px) {
     .projects__container {
         height: fit-content;
         padding-bottom: 2em;
