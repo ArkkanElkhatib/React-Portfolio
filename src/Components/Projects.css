@@ -91,6 +91,7 @@
     .projects__content__container {
         justify-content: flex-start;
         align-items: center;
+        gap: 2em;
         flex-direction: column;
         flex-wrap: nowrap;
     }

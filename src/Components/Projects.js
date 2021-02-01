@@ -29,31 +29,6 @@ function Projects() {
                     <section className='dark' >JavaFX Store</section>
                 </a>
             </div>
-                {/* <div className='projects__tile'>
-
-                </div>
-                <div className='projects__tile'>
-
-                </div>
-                <div className='projects__tile'>
-
-                </div>
-                <div className='projects__tile'>
-
-                </div>
-                <div className='projects__tile'>
-
-                </div>
-                <div className='projects__tile'>
-
-                </div>
-                <div className='projects__tile'>
-
-                </div>
-                <div className='projects__tile'>
-
-                </div>
-            </div> */}
         </div>
     )
 }

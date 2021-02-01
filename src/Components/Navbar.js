@@ -4,17 +4,8 @@ import { Link } from 'react-router-dom';
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [mobile, setMobile] = useState(false);
 
-    const scroll = (id) => {
-        let anchor = document.querySelector(`#${id}`);
-        anchor.scrollIntoView({behavior: 'smooth', block: 'center'});
-    }
-
-    const handleClick = () => {
-        setClick(!click);
-    }
-
+    /*
     const toggleMobile = () => {
         if (window.innerWidth <= 960) {
             setMobile(true);
@@ -23,10 +14,16 @@ function Navbar() {
         }
     }
 
+    
     useEffect(() => {
         toggleMobile();
     })
+*/
 
+    const handleClick = () => {
+        setClick(!click);
+    }
+    
     return (
         <div className='nav__container'>
                 <div className='nav__title'>
