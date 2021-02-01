@@ -13,7 +13,7 @@ function Projects() {
                     <section>Py-Balls</section>
                 </a>
                 <a href='https://github.com/ArkkanElkhatib/Python-CoronaParser' className='projects__tile' target='_blank' >
-                    <img className='projects__tile__img' src='Py-Rona.png' />
+                    <img className='projects__tile__img' src='Pyrona.png' />
                     <section>Python Corona Scraper</section>
                 </a>
                 <a href='https://github.com/ArkkanElkhatib/React-Portfolio/tree/dark/public' className='projects__tile' target='_blank' >
