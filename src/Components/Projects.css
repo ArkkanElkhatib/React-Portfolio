@@ -90,7 +90,7 @@
 
     .projects__content__container {
         height: fit-content;
-        justify-content: flex-start;
+        justify-content: space-around;
         align-items: center;
         gap: 2em;
         flex-direction: column;
@@ -103,13 +103,13 @@
         width: 90vw;
     }
     
-    .projects__tile__img {
+    /* .projects__tile__img {
         height: 100%;
         width: 100%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-    }
+    } */
 
     .projects__tile section {
         opacity: 1;    
