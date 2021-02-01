@@ -1,0 +1,115 @@
+.projects__container {
+    position: relative;
+    height: var(--main-height);
+    width: 100%;
+    top: var(--nav-height);
+    background-color: var(--sec-color);
+    padding: 3em 8em;
+}
+
+.projects__content__header {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+    font-size: 30px;
+    position: relative;
+    top: .25em;
+    margin-bottom: 1em;
+}
+
+
+.projects__content__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    padding: 1em;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(600px + calc(3 * 1em));
+}
+
+.projects__tile {
+    height: 320px;
+    width: 450px;
+    background-color: var(--sec-alt-color);
+    transition: all 0.25s ease-in;
+    border: 1px solid var(--sec-color);
+}
+
+.projects__tile__img {
+    height: 98%;
+    width: 98%;
+    opacity: 1;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects__tile section {
+    font-size: 25px;
+    margin: auto;
+    position: relative;
+    bottom: 40%;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.dark {
+    color: var(--sec-color);
+}
+
+.projects__tile:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.projects__tile:hover section {
+    transition: all 0.3s ease-in;
+    opacity: 1;
+}
+
+@media screen and (max-width: 1400px) {
+    .projects__container {
+        height: fit-content;
+        padding-bottom: 2em;
+        margin: 0;
+        text-align: center;
+        padding: 1em;
+    }
+    
+    .projects__content__header {
+        top: 0;
+        left: 0;
+        font-size: 25px;
+        padding: .25em;
+    }
+
+    .projects__content__container {
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .projects__tile {
+        height: 40vh;
+        width: 90vw;
+    }
+    
+    .projects__tile__img {
+        height: 100%;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .projects__tile section {
+        opacity: 1;    
+    }
+
+}
