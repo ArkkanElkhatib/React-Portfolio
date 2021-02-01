@@ -41,9 +41,9 @@ function Navbar() {
                 <Link to='/projects' onClick={handleClick}>
                     Projects
                 </Link>
-                <Link href='#' onClick={handleClick}>
+                {/* <Link href='/' onClick={handleClick}>
                     Contact
-                </Link>
+                </Link> */}
             </div>
         </div>
     )
